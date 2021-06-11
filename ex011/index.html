@@ -16,6 +16,20 @@
         <source media="(max-width: 1050px)" srcset="imagens/m.jpg" type="image/jpg">
         <img src="imagens/g.jpg" alt="imagem flexível">
     </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Argonne.mp3" type="audio/mpeg">
+        <source src="midia/Argonne.ogg" type="audio/ogg">
+        <source src="midia/Argonne.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Argonne.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+    <!-- Outra Maneira de inserção de arquivos de áudio
+    <audio src="midia/Argonne.mp3" controls autoplay></audio>
+    -->
+
 </body>
 
 </html>
